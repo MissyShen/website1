@@ -1,0 +1,200 @@
+html,body{
+	padding: 0;
+	margin:0;
+}
+a{
+	text-decoration: none;
+}
+
+body{
+	background-color: #DFFFCE;
+}
+.clear{
+	clear: both;
+}
+/**********************************************************/
+header{
+	background-color: #006030;/*test*/
+	width: 100%;
+	padding-bottom: 2px;
+
+
+}
+.container{
+	/*background-color: white;test*/
+	width: 1200px;
+	/*height: 500px;test*/
+	margin: 0 auto;
+}
+
+#logo{
+	/*background-color: black;test*/
+	display: block;
+	float: left;
+	background-image: url(images/logo.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 350px;
+	height: 150px;
+
+}
+.topnav{
+	/*background-color: black;test*/
+	height: 85px;
+
+
+}
+.back, .contact{
+	display: block;
+	float: right;
+	padding: 10px 5px;
+	color: #003D79;
+}
+.back:hover, .contact:hover{
+	color: #9D9D9D;
+	text-decoration: underline;
+}
+.pdintro{
+	background-image: url(images/pdintro.jpg);
+}
+.location{
+	background-image: url(images/location.jpg);
+}
+.pd1{
+	background-image: url(images/nav/pd1.jpg);
+}
+.pd2{
+	background-image: url(images/nav/pd2.jpg);
+}
+.pd3{
+	background-image: url(images/nav/pd3.jpg);
+}
+.pd4{
+	background-image: url(images/nav/pd4.jpg);
+}
+.pd5{
+	background-image: url(images/nav/pd5.jpg);
+}
+.pd6{
+	background-image: url(images/nav/pd6.jpg);
+}
+.pd7{
+	background-image: url(images/nav/pd7.jpg);
+}
+.pd8{
+	background-image: url(images/nav/pd8.jpg);
+}
+.pd9{
+	background-image: url(images/nav/pd9.jpg);
+}
+.pd10{
+	background-image: url(images/nav/pd10.jpg);
+}
+.pd11{
+	background-image: url(images/nav/pd11.jpg);
+}
+.pd12{
+	background-image: url(images/nav/pd12.jpg);
+}
+/**********************************************************/
+.banner{
+
+	width: 1170px;
+	height: 800px;
+	background-image: url(images/bntest.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 3em 15px;
+	border: 10px dashed;
+}
+.showbox{
+	width: 1200px;
+	overflow: auto;
+	margin: 3em 15px;
+	/*background-color: black;*/
+}
+.showbox div{
+	width: 265px;
+	height: 350px;
+	margin: 5px 7.5px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	float: left;
+	border: 10px outset;
+}
+.show1{
+	background-image: url(images/show/show1.jpg);
+}
+.show2{
+	background-image: url(images/show/show2.png);
+}
+.show3{
+	background-image: url(images/show/show3.png);
+}
+.show4{
+	background-image: url(images/show/show4.png);
+}
+
+.show5{
+	background-image: url(images/show/show5.png);
+}
+.show6{
+	background-image: url(images/show/show6.png);
+}
+.show7{
+	background-image: url(images/show/show7.png);
+}
+.show8{
+	background-image: url(images/show/show8.png);
+}
+/***********************************************/
+footer{
+	width: 1200px;
+	height:100%;
+	overflow: auto;
+	
+	
+}
+footer ul{
+	padding: 0;
+	margin: 0 ;
+	list-style: none;
+	text-align: center;
+
+}
+footer ul li{
+	border-right: 5px groove;
+	display: inline-block;
+}
+footer ul > li:last-child{
+    border-right: none;
+}
+
+footer ul li a{
+	display: block;
+	width: 262px;
+	height: 50px;
+	margin: 5px 5px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.about_F{
+	background-image: url(images/about.jpg);
+}
+.pdintro_F{
+	background-image: url(images/pdintro.jpg);
+}
+.location_F{
+	background-image: url(images/location.jpg);
+}
+.contact_F{
+	background-image: url(images/location.jpg);
+	vertical-align: middle;
+}
+.footerintro{
+	overflow: auto;
+	background-color: white;
+}
+.footerintro p{
+	text-align: center;
+}

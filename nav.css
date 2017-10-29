@@ -1,0 +1,56 @@
+nav{
+	/*background-color: black;test*/
+	text-align: center;
+}
+nav ul{
+	list-style: none;
+	/*background-color: red;test*/
+	padding: 0;
+	margin: 0 0 10px 0;
+	display: inline-block;
+	height: 45px;
+}
+nav ul li{
+	/*background-color: yellow;test*/
+	padding: 10px 10px 0 10px;
+	position: relative;
+
+}
+nav ul > li{
+	float: left;
+}
+nav ul li a{
+	display: block;
+	width: 216px;
+	height: 50px;
+	background-image: url(images/about.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+/*第一層導覽列:滑入滑出顏色變化*/
+
+nav ul a:hover { /* 滑鼠滑入按鈕變色*/
+	background-color:rgba(212, 193, 130, 0.7);
+	opacity:0.5;
+
+}
+nav ul li:hover > a { /* 滑鼠移入次選單上層按鈕保持變色*/
+    background-color:rgba(212, 193, 130, 0.7);
+	opacity:0.5;
+}
+/*第2層導覽列*/
+nav ul ul{
+    z-index: 99; /*顯示於最上層(數字越多越上層)*/
+    position: absolute;
+
+}
+/*隱藏第2層選單*/
+nav ul ul { 
+    display: none;
+}
+/*滑鼠滑入展開次選單*/
+nav ul li:hover > ul{ 
+    display: block;
+}
+
